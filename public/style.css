@@ -370,6 +370,103 @@ footer {
     border-top: 1px solid #334155;
 
     color: #94a3b8;
+    /* 📱 Mobile Responsive Design */
+@media (max-width: 600px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    nav {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav h2 {
+        font-size: 22px;
+    }
+
+    nav div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .hero {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 70px 20px 50px;
+    }
+
+    .profile-photo {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .hero-text {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .btn {
+        width: 80%;
+        max-width: 280px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    section {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 50px 20px;
+    }
+
+    .skills-container,
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-card,
+    .project-card,
+    .education-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    footer {
+        padding: 25px 15px;
+        text-align: center;
+    }
+}
 
     font-size: 14px;
 }
