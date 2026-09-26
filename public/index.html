@@ -12,220 +12,600 @@
 
 <body>
 
-    <nav>
-        <h2>YASHAS TP</h2>
+    <!-- ================= PRELOADER ================= -->
 
-        <div>
+    <div class="loader">
+        <div class="loader-circle"></div>
+        <p>YASHAS TP</p>
+    </div>
+
+
+    <!-- ================= BACKGROUND ================= -->
+
+    <div class="background-grid"></div>
+
+    <div class="cursor-glow"></div>
+
+    <div class="particles"></div>
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <nav id="navbar">
+
+        <div class="logo">
+            YASHAS <span>TP</span>
+        </div>
+
+        <div class="nav-links">
+
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#education">Education</a>
             <a href="#contact">Contact</a>
+
         </div>
+
+        <div class="menu-btn">
+            ☰
+        </div>
+
     </nav>
 
-    <header class="hero">
-    <img src="profile.jpeg" alt="Yashas T P" class="profile-photo">
-    <p class="hello">Hi, I'm</p>
 
-    <h1>Yashas T P</h1>
+    <!-- ================= HERO ================= -->
 
-    <h2>Information Science Engineering Student</h2>
+    <header class="hero" id="home">
 
-    <p class="hero-text">
-        Aspiring Software & AI Engineer
-    </p>
+        <div class="hero-container">
 
-    <p class="description">
-        I’m learning programming, Artificial Intelligence,
-        and software development while building projects
-        and exploring new technologies.
-    </p>
 
-    <div class="hero-buttons">
-        <a href="#projects" class="btn">View My Projects</a>
+            <!-- PROFILE IMAGE -->
 
-        <a href="https://github.com/Yashu112008" class="btn secondary" target="_blank">
-    GitHub
-</a>
-    <a href="https://www.linkedin.com/in/yashas-t-p-4a2b09423" class="btn secondary" target="_blank">
-    LinkedIn
-</a>
-</a>
-    </div>
+            <div class="hero-image">
 
-</header>
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="orbit orbit-three"></div>
 
-    <section id="about">
-    <h2>About Me</h2>
+                <div class="image-glow"></div>
+
+                <img
+                    src="profile.jpeg"
+                    alt="Yashas T P"
+                    class="profile-photo"
+                >
+
+            </div>
+
+
+            <!-- HERO CONTENT -->
+
+            <div class="hero-content">
+
+                <p class="hello">
+                    Hi, I'm
+                </p>
+
+                <h1>
+                    Yashas <span>T P</span>
+                </h1>
+
+                <h2>
+                    Information Science Engineering Student
+                </h2>
+
+                <div class="typing-container">
+                    <span>I'm an </span>
+                    <span class="typing-text"></span>
+                </div>
+
+                <p class="description">
+
+                    I’m learning programming, Artificial Intelligence,
+                    and software development while building projects
+                    and exploring new technologies.
+
+                </p>
+
+
+                <!-- BUTTONS -->
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary-btn">
+                        View My Projects
+                        <span>→</span>
+                    </a>
+
+                    <a
+                        href="https://github.com/Yashu112008"
+                        class="btn secondary"
+                        target="_blank"
+                    >
+                        GitHub
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/yashas-t-p-4a2b09423"
+                        class="btn secondary"
+                        target="_blank"
+                    >
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SCROLL INDICATOR -->
+
+        <div class="scroll-indicator">
+
+            <span>Scroll Down</span>
+
+            <div class="scroll-line"></div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="reveal">
+
+        <div class="section-number">
+            01
+        </div>
+
+        <h2>About Me</h2>
+
+        <div class="section-line"></div>
 
         <p>
+
             Hi, I'm Yashas T P, a first-year Information Science
             Engineering student at REVA University, Bengaluru.
             I am currently learning C programming, Python,
             Artificial Intelligence, Git and GitHub.
+
         </p>
+
     </section>
 
-    <section id="skills">
 
-    <h2>My Skills</h2>
 
-    <div class="skills-container">
+    <!-- ================= SKILLS ================= -->
 
-        <div class="skill-card">
-            <h3>💻 C Programming</h3>
-            <p>
-                Learning programming fundamentals,
-                operators, loops, functions and problem solving.
-            </p>
+    <section id="skills" class="reveal">
+
+        <div class="section-number">
+            02
         </div>
 
-        <div class="skill-card">
-            <h3>🐍 Python</h3>
-            <p>
-                Learning Python fundamentals and
-                building beginner-level programs.
-            </p>
-        </div>
+        <h2>My Skills</h2>
 
-        <div class="skill-card">
-            <h3>🤖 Artificial Intelligence</h3>
-            <p>
-                Exploring AI, Generative AI and
-                modern AI technologies.
-            </p>
-        </div>
+        <div class="section-line"></div>
 
-        <div class="skill-card">
-            <h3>🔧 Git & GitHub</h3>
-            <p>
-                Learning version control and
-                managing projects with GitHub.
-            </p>
-        </div>
 
-        <div class="skill-card">
-            <h3>🧠 Problem Solving</h3>
-            <p>
-                Developing logical thinking and
-                programming problem-solving skills.
-            </p>
-        </div>
+        <div class="skills-container">
 
-        <div class="skill-card">
-            <h3>🌐 Web Development</h3>
-            <p>
-                Currently learning HTML, CSS
-                and JavaScript.
-            </p>
-        </div>
 
-    </div>
+            <div class="skill-card">
 
-</section>
+                <div class="card-number">
+                    01
+                </div>
 
-    <section id="projects">
+                <div class="skill-icon">
+                    💻
+                </div>
 
-    <h2>My Projects</h2>
+                <h3>
+                    C Programming
+                </h3>
 
-    <div class="projects-container">
+                <p>
 
-        <div class="project-card">
+                    Learning programming fundamentals,
+                    operators, loops, functions and problem solving.
 
-            <h3>🌐 Personal Portfolio Website</h3>
+                </p>
 
-            <p>
-                A responsive personal portfolio website built
-                using HTML and CSS to showcase my skills,
-                education, projects and learning journey.
-            </p>
+                <div class="card-line"></div>
 
-            <div class="project-tech">
-                <span>HTML</span>
-                <span>CSS</span>
             </div>
 
-            <a href="https://github.com/Yashu112008"
-               target="_blank"
-               class="project-btn">
-                View on GitHub →
+
+
+            <div class="skill-card">
+
+                <div class="card-number">
+                    02
+                </div>
+
+                <div class="skill-icon">
+                    🐍
+                </div>
+
+                <h3>
+                    Python
+                </h3>
+
+                <p>
+
+                    Learning Python fundamentals and
+                    building beginner-level programs.
+
+                </p>
+
+                <div class="card-line"></div>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <div class="card-number">
+                    03
+                </div>
+
+                <div class="skill-icon">
+                    🤖
+                </div>
+
+                <h3>
+                    Artificial Intelligence
+                </h3>
+
+                <p>
+
+                    Exploring AI, Generative AI and
+                    modern AI technologies.
+
+                </p>
+
+                <div class="card-line"></div>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <div class="card-number">
+                    04
+                </div>
+
+                <div class="skill-icon">
+                    🔧
+                </div>
+
+                <h3>
+                    Git & GitHub
+                </h3>
+
+                <p>
+
+                    Learning version control and
+                    managing projects with GitHub.
+
+                </p>
+
+                <div class="card-line"></div>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <div class="card-number">
+                    05
+                </div>
+
+                <div class="skill-icon">
+                    🧠
+                </div>
+
+                <h3>
+                    Problem Solving
+                </h3>
+
+                <p>
+
+                    Developing logical thinking and
+                    programming problem-solving skills.
+
+                </p>
+
+                <div class="card-line"></div>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <div class="card-number">
+                    06
+                </div>
+
+                <div class="skill-icon">
+                    🌐
+                </div>
+
+                <h3>
+                    Web Development
+                </h3>
+
+                <p>
+
+                    Currently learning HTML, CSS
+                    and JavaScript.
+
+                </p>
+
+                <div class="card-line"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="reveal">
+
+        <div class="section-number">
+            03
+        </div>
+
+        <h2>My Projects</h2>
+
+        <div class="section-line"></div>
+
+
+        <div class="projects-container">
+
+
+            <div class="project-card">
+
+                <div class="project-top">
+
+                    <span class="project-number">
+                        PROJECT 01
+                    </span>
+
+                    <span class="project-status">
+                        ACTIVE
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    🌐 Personal Portfolio Website
+                </h3>
+
+
+                <p>
+
+                    A responsive personal portfolio website built
+                    using HTML and CSS to showcase my skills,
+                    education, projects and learning journey.
+
+                </p>
+
+
+                <div class="project-tech">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+
+                </div>
+
+
+                <a
+                    href="https://github.com/Yashu112008"
+                    target="_blank"
+                    class="project-btn"
+                >
+
+                    View on GitHub
+                    <span>→</span>
+
+                </a>
+
+            </div>
+
+
+
+            <div class="project-card">
+
+                <div class="project-top">
+
+                    <span class="project-number">
+                        PROJECT 02
+                    </span>
+
+                    <span class="project-status coming">
+                        COMING SOON
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    🚧 More Projects Coming Soon
+                </h3>
+
+
+                <p>
+
+                    I am currently learning C, Python, JavaScript
+                    and Artificial Intelligence. More projects
+                    will be added as I build them.
+
+                </p>
+
+
+                <div class="project-tech">
+
+                    <span>C</span>
+                    <span>Python</span>
+                    <span>JavaScript</span>
+                    <span>AI</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education" class="reveal">
+
+        <div class="section-number">
+            04
+        </div>
+
+        <h2>Education</h2>
+
+        <div class="section-line"></div>
+
+
+        <div class="education-card">
+
+            <div class="education-icon">
+                🎓
+            </div>
+
+
+            <div class="education-content">
+
+                <span class="education-year">
+                    2026 — 2030
+                </span>
+
+                <h3>
+                    REVA University
+                </h3>
+
+                <p class="degree">
+
+                    B.Tech — Information Science and Engineering
+
+                </p>
+
+                <p>
+
+                    📍 Bengaluru, Karnataka
+
+                </p>
+
+                <p class="education-description">
+
+                    Currently pursuing my undergraduate degree and
+                    developing my foundation in programming, software
+                    development and emerging technologies.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact-section reveal">
+
+        <div class="section-number">
+            05
+        </div>
+
+        <h2>Let's Connect</h2>
+
+        <div class="section-line"></div>
+
+
+        <p class="contact-text">
+
+            I'm currently learning and building my skills.
+            Feel free to connect with me through the links below.
+
+        </p>
+
+
+        <div class="contact-links">
+
+            <a
+                href="https://github.com/Yashu112008"
+                target="_blank"
+            >
+                GitHub
+            </a>
+
+
+            <a
+                href="https://www.linkedin.com/in/yashas-t-p-4a2b09423"
+                target="_blank"
+            >
+                LinkedIn
+            </a>
+
+
+            <a
+                href="mailto:tpyashas2008@gmail.com"
+            >
+                Email
             </a>
 
         </div>
 
-        <div class="project-card">
+    </section>
 
-            <h3>🚧 More Projects Coming Soon</h3>
 
-            <p>
-                I am currently learning C, Python, JavaScript
-                and Artificial Intelligence. More projects
-                will be added as I build them.
-            </p>
 
-        </div>
+    <!-- ================= FOOTER ================= -->
 
-    </div>
-
-</section>
-
-    <section id="education">
-
-    <h2>Education</h2>
-
-    <div class="education-card">
-
-        <h3>🎓 REVA University</h3>
-
-        <p class="degree">
-            B.Tech — Information Science and Engineering
-        </p>
-
-        <p>
-            📍 Bengaluru, Karnataka
-        </p>
-
-        <p>
-            📅 2026 — 2030
-        </p>
-
-        <p class="education-description">
-            Currently pursuing my undergraduate degree and
-            developing my foundation in programming, software
-            development and emerging technologies.
-        </p>
-
-    </div>
-
-</section>
-
-    <div class="contact-links">
-
-    <a href="https://github.com/Yashu112008"
-       target="_blank">
-        GitHub
-    </a>
-
-    <a href="https://www.linkedin.com/in/yashas-t-p-4a2b09423"
-       target="_blank">
-        LinkedIn
-    </a>
-
-    <a href="mailto:tpyashas2008@gmail.com">
-        Email
-    </a>
-
-</div>
     <footer>
 
-    <p>© 2026 Yashas T P. All rights reserved.</p>
+        <div class="footer-logo">
+            YASHAS <span>TP</span>
+        </div>
 
-    <p>
-        Built with HTML, CSS & JavaScript 🚀
-    </p>
+        <p>
+            © 2026 Yashas T P. All rights reserved.
+        </p>
 
-</footer>
+        <p>
+            Built with HTML, CSS & JavaScript 🚀
+        </p>
+
+    </footer>
+
+
+
     <script src="script.js"></script>
 
 </body>
