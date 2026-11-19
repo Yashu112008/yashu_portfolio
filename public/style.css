@@ -1934,7 +1934,8 @@ footer p {
     }
 
     .skills-container,
-    .projects-container {
+    .projects-container,
+     .certificates-container{
         grid-template-columns:
             1fr;
     }
