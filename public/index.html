@@ -43,6 +43,7 @@
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#education">Education</a>
+            <a href="#certificates">Certificates</a>
             <a href="#contact">Contact</a>
 
         </div>
@@ -535,12 +536,106 @@
 
 
 
+    <!-- ================= CERTIFICATES ================= -->
+
+    <section id="certificates" class="reveal">
+
+        <div class="section-number">
+            05
+        </div>
+
+        <h2>Certificates</h2>
+
+        <div class="section-line"></div>
+
+
+        <div class="certificates-container">
+
+
+            <!-- CERTIFICATE 1: IBM SKILLSBUILD -->
+
+            <div class="certificate-card" onclick="openCertModal(this)">
+
+                <div class="cert-img-wrapper">
+                    <img
+                        src="ibm-genai-certificate.jpeg"
+                        alt="IBM SkillsBuild Generative AI Essentials Certificate"
+                    >
+                    <span class="cert-badge">VERIFIED</span>
+                </div>
+
+                <div class="cert-body">
+
+                    <span class="cert-date">
+                        03 OCT 2026
+                    </span>
+
+                    <h3>
+                        Generative AI Essentials: From Foundations to Practical Application
+                    </h3>
+
+                    <p class="cert-issuer">
+                        IBM SkillsBuild • REVA University & BharatCares
+                    </p>
+
+                    <div class="cert-footer">
+                        <span class="cert-id">ID: PLAN-3D8B6A70DA13</span>
+                        <span class="cert-view">View Full ↗</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CERTIFICATE 2: SCALER TOPICS -->
+
+            <div class="certificate-card" onclick="openCertModal(this)">
+
+                <div class="cert-img-wrapper">
+                    <img
+                        src="scaler-instagram-certificate.jpeg"
+                        alt="Scaler Topics Instagram System Design Certificate"
+                    >
+                    <span class="cert-badge">VERIFIED</span>
+                </div>
+
+                <div class="cert-body">
+
+                    <span class="cert-date">
+                        04 NOV 2026
+                    </span>
+
+                    <h3>
+                        Instagram System Design Course
+                    </h3>
+
+                    <p class="cert-issuer">
+                        Scaler Topics
+                    </p>
+
+                    <div class="cert-footer">
+                        <span class="cert-id">System Design</span>
+                        <span class="cert-view">View Full ↗</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
     <!-- ================= CONTACT ================= -->
 
     <section id="contact" class="contact-section reveal">
 
         <div class="section-number">
-            05
+            06
         </div>
 
         <h2>Let's Connect</h2>
@@ -603,6 +698,19 @@
         </p>
 
     </footer>
+
+
+
+    <!-- ================= CERTIFICATE MODAL ================= -->
+
+    <div id="certModal" class="cert-modal" onclick="closeCertModal()">
+        <div class="cert-modal-box" onclick="event.stopPropagation()">
+            <button class="cert-close" onclick="closeCertModal()">✕</button>
+            <img id="certModalImg" src="" alt="Certificate Preview">
+            <h3 id="certModalTitle"></h3>
+            <p id="certModalIssuer"></p>
+        </div>
+    </div>
 
 
 
