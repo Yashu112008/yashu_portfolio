@@ -366,7 +366,7 @@ setInterval(
 
 const cards =
     document.querySelectorAll(
-        ".skill-card, .project-card"
+        ".skill-card, .project-card, .certificate-card"
     );
 
 
