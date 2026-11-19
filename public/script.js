@@ -499,3 +499,24 @@ console.log(
 console.log(
     "Animated portfolio loaded successfully."
 );
+// =========================
+// CERTIFICATE MODAL
+// =========================
+
+function openCertModal(card) {
+    const modal = document.getElementById("certModal");
+    document.getElementById("certModalImg").src = card.querySelector("img").src;
+    document.getElementById("certModalTitle").textContent = card.querySelector("h3").textContent;
+    document.getElementById("certModalIssuer").textContent = card.querySelector(".cert-issuer").textContent;
+    modal.classList.add("open");
+}
+
+function closeCertModal() {
+    document.getElementById("certModal").classList.remove("open");
+}
+
+document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") {
+        closeCertModal();
+    }
+});
